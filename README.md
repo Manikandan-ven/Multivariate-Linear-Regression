@@ -36,6 +36,8 @@ print('Intercept:', regr.intercept_)
 input_data = pd.DataFrame({'Weight': [3300], 'Volume': [1300]})
 predictedCO2 = regr.predict(input_data)
 print('Predicted CO2 for the corresponding weight and volume:', predictedCO2)
+
+
 ```
 ## Output:
 ![Screenshot 2024-12-11 140328](https://github.com/user-attachments/assets/5baf9c6f-8ce4-4419-96e1-7e5a7935d6be)
